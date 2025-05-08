@@ -1,0 +1,1 @@
+javascript:(function(){const lang=prompt("Language code (e.g., es, de, ar):","fr"),color=prompt("Background color (hex/rgb/hsl/name):","#E0FFFF");lang&&color&&(document.body.style.backgroundColor=color,window.location.href=`https://translate.google.com/translate?js=n&sl=auto&tl=${lang}&u=${encodeURIComponent(location.href)}`)})();
